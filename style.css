@@ -1,0 +1,48 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: #252525;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #252525;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.active, ul li:hover {
+    background: #757575;
+    color: #fff;
+  }
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
